@@ -9,7 +9,7 @@
 
 ### Usage
 
-```bash
+```text
 ❯ python src/dir_file_count.py --help
 usage: dir_file_count.py [-h] [-c CUTOFF] [-r RESULT_COUNT] [-s DEPTH] [-d DIR] [-f {tsv,csv,json}]
 
@@ -30,7 +30,7 @@ options:
 
 ### Examples
 
-```bash
+```text
 ❯ python src/dir_file_count.py --cutoff 100 --results 3 --show-depth 4 --dir $HOME/Library --format json
 [
     {
